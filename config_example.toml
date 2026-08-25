@@ -1,0 +1,16 @@
+[api] # Should work with any OpenAI compatible API
+base_url='https://openrouter.ai/api/v1'
+api_key='<Your API key>'
+
+[output]
+file_name='output.csv'
+
+[testing]
+models = [
+    'your',
+    'list',
+    'of',
+    'models',
+    'here',
+]
+prompt = '<Your prompt here>'
